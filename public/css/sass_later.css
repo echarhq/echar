@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+.navbar-inverse {
+	background-color: #37474F;
+	border-bottom: none;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .active > a {
+	background-color: #455A64 !important;
+}
+
+.navbar-inverse .navbar-nav > li {
+	font-weight: bold;
+	font-size: 1em;
+	border-left: #455A64 solid 1px;
+}
+
+.navbar-nav li.quick-buttons {
+	border-left: none;
+	padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+	.quick-buttons {
+		display: none !important;
+	}
+	.echar-quick-search, .nav-quick-search {
+		display: none !important;
+	}
+}
+
+/* customization */
+
+.echar-quick-search {
+	margin: 6px 5px;
+}
+
+.echar-quick-search input {
+	border: none;
+	background-color: #CFD8DC;
+}
+
+.no-outglow {
+	outline: none;
+	border: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+/* do not group these rules */
+.echar-quick-search input::-webkit-input-placeholder {
+    color: #BDBDBD;
+}
+.echar-quick-search input:-moz-placeholder {
+    /* FF 4-18 */
+    color: #BDBDBD;
+}
+.echar-quick-search input::-moz-placeholder {
+    /* FF 19+ */
+    color: #BDBDBD;
+}
+.echar-quick-search input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #BDBDBD;
+}
+
+/* logo */
+.logo-s {
+	width: auto;
+	height: 100%;
+}
+
+/* search top bar */
+.fa-search-position {
+	position: absolute;
+	right: 35px;
+	top: 17px;
+}
+
+.input-icon-right {
+	padding-right: 37px;
+}
+
+/* button styling */
+.btn-qb  {
+	background-color: #FFCA28 !important;
+	font-weight: bold;
+}
+
+
+.btn {
+	border: none;
+}
