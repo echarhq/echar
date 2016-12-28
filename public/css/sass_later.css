@@ -93,7 +93,12 @@ body {
 	font-weight: bold;
 }
 
-
 .btn {
 	border: none;
+}
+
+/* Leave list */
+.leaves-list .label {
+	margin-top: 3px;
+	text-transform:capitalize;
 }

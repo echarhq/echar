@@ -26,7 +26,7 @@
 					setTimeout(function () {
 						res.loading = false;
 						res.memos = response.data;
-					}, 300);
+					}, 500);
 				}, function (response) {
 					// error callbacks
 				});

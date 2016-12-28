@@ -14,7 +14,8 @@ require('./bootstrap');
  */
 
 //Vue.component('example', require('./components/Example.vue'));
-Vue.component('memos', require('./components/Memos.vue'))
+Vue.component('memos', require('./components/Memo.vue'))
+Vue.component('leaves', require('./components/Leave.vue'))
 
 const app = new Vue({
     el: '#app'
