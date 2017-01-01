@@ -1,8 +1,12 @@
 <template>
-	<ul class="list-group">
+	<ul class="list-group" id="memo">
 		<li v-show="loading" class="list-group-item"><i  class="fa fa-spinner fa-spin"></i> Loading data</li>
 		<li class="list-group-item" v-for="memo in memos">
 			{{ memo.memo }}
+			<hr>
+			<div class="memo-bottom">
+				<span class="label label-default">Sunday - 21-04-1991</span>
+			</div>
 		</li>
 	</ul>
 </template>

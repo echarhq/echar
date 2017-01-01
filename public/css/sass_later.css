@@ -97,8 +97,35 @@ body {
 	border: none;
 }
 
-/* Leave list */
-.leaves-list .label {
+/* Leave list, Claims list status */
+#leaves-list .label,
+#claims-list .label {
 	margin-top: 3px;
 	text-transform:capitalize;
+}
+
+/* memo list */
+#memo hr {
+	margin-top: 5px;
+	margin-bottom: 2px;
+}
+
+.memo-bottom {
+	text-align: right;
+	font-weight: bold;
+}
+
+/* Employee Profile */
+.my-image {
+	width: 100px;
+	height: 100px;
+	background-color: #000;
+	margin: 0 auto;
+}
+
+.my-name {
+	margin-top: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
 }
