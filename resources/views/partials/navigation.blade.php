@@ -13,21 +13,17 @@
 <li class="active"><a href="#">Dashboard</a></li>
 <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-        Supervisor <span class="caret"></span>
+        HR Manager <span class="caret"></span>
     </a>
 
     <ul class="dropdown-menu" role="menu">
+        <li class="dropdown-header">MANAGE</li>
         <li>
-            <a href="{{ url('/logout') }}"
-            onclick="event.preventDefault();
-            document.getElementById('logout-form').submit();">
-            Logout
-        </a>
-
-        <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
-            {{ csrf_field() }}
-        </form>
-    </li>
+            <a href="#">Leave</a>
+        </li>
+        <li>
+            <a href="#">Claim</a>
+        </li>
 </ul>
 </li>
 
@@ -37,6 +33,13 @@
     </a>
 
     <ul class="dropdown-menu" role="menu">
+        <li>
+            <a href="#">My Leave</a>
+        </li>
+        <li>
+            <a href="#">My Claim</a>
+        </li>
+        <li role="separator" class="divider"></li>
         <li>
             <a href="#">Profile</a>
         </li>

@@ -13,6 +13,7 @@
     <!-- Styles -->
     <link href="/css/app.css" rel="stylesheet">
     <link href="/css/sass_later.css" rel="stylesheet">
+    <link href="/packages/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Scripts -->
     <script>
@@ -73,6 +74,5 @@
 
 <!-- Scripts -->
 <script src="/js/app.js"></script>
-<script src="https://use.fontawesome.com/1ae3dc1960.js"></script>
 </body>
 </html>

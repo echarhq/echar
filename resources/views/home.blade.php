@@ -70,5 +70,10 @@
         </div>
         
     </div>
+    <div class="row">
+        <div class="col-md-12 footer-powered">
+            Powered by ECHAR. Made with <i class="fa fa-fw fa-heart text-danger"></i>
+        </div>
+    </div>
 </div>
 @endsection

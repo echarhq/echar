@@ -5,7 +5,9 @@
 			{{ memo.memo }}
 			<hr>
 			<div class="memo-bottom">
-				<span class="label label-default">Sunday - 21-04-1991</span>
+				<span class="pull-left memo-department">IT Department</span>
+				<span class="pull-right memo-date label label-default">Sunday - 21-04-1991</span>
+				<div class="clearfix"></div>
 			</div>
 		</li>
 	</ul>
